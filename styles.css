@@ -1,0 +1,553 @@
+/*** General tags ***/
+
+body {
+	background:url(images/background.gif) repeat-y top center #fff;
+	color:#404040;
+	font:76% Verdana,Tahoma,Arial,sans-serif;
+	line-height:1.2em;
+	margin:0 auto;
+	padding:0;
+}
+
+.autocomp {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	visibility:visible;
+	width: 0px;
+	z-index:3;
+}
+
+.msg {
+color: #FF0000;
+text-align: center;
+}
+
+a {
+color:#3081B6;
+font-weight:700;
+text-decoration:none;
+}
+
+a:hover {
+text-decoration:underline;
+}
+
+a img {
+border:0;
+}
+
+p {
+margin:0 0 18px 10px;
+}
+
+ul,ol,dl {
+font-size:0.9em;
+margin:2px 0 16px 35px;
+}
+
+ul ul,ol ol {
+margin:4px 0 4px 5px;
+}
+
+blockquote {
+border:1px solid #9F9B9B;
+font-size:0.9em;
+margin:20px 10px;
+padding:8px;
+}
+
+h1 {
+	color:#3081B6;
+	font-size:4.1em;
+	letter-spacing:-5px;
+	margin:0 0 30px 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+h1 a {
+	color:#3081B6;
+	text-transform:none;
+}
+
+h2 {
+	border-bottom:4px solid #9F9B9B;
+	color:#3081B6;
+	font-size:1.4em;
+	letter-spacing:-1px;
+	margin:0 0 10px;
+	padding:0 2px 2px 5px;
+}
+
+h3 {
+border-bottom:1px solid #9F9B9B;
+color:#3081B6;
+font-size:1.2em;
+font-weight:700;
+margin:10px 0 8px;
+padding:1px 2px 2px 3px;
+}
+
+/*** Main wrap and header ***/
+
+#wrap {
+color:#404040;
+margin:10px auto;
+padding:0;
+width:970px;
+}
+
+#header {
+margin:0;
+}
+
+#toplinks {
+font-size:0.9em;
+padding:5px 2px 2px 3px;
+text-align:right;
+}
+
+#toplinks a {
+color:gray;
+}
+
+#slogan {
+color:#9F9B9B;
+font-size:1.5em;
+font-weight:700;
+letter-spacing:-1px;
+line-height:1.2em;
+margin:10px 0 10px 35px;
+}
+
+/*** Sidebar and menu ***/
+
+#sidebar {
+float:left;
+line-height:1.4em;
+padding:1px 0 0;
+width:210px;
+}
+
+#sidebar ul {
+font-size:0.9em;
+list-style:none;
+margin:0;
+padding:0 0 15px 2px;
+}
+
+#sidebar li {
+list-style:none;
+margin:0 0 4px;
+padding:0;
+}
+
+#sidebar li a {
+font-size:1.2em;
+font-weight:700;
+padding:2px;
+}
+
+#sidebar ul ul {
+line-height:1.2em;
+font-size:0.8em;
+margin:4px 0 3px 2px;
+padding:0;
+}
+
+#sidebar ul ul li a {
+font-weight:400;
+}
+
+#sidebar h2 {
+margin:3px 0 8px;
+}
+
+/*** Main content ***/
+
+#content {
+float:right;
+line-height:1.5em;
+margin:0;
+padding:0;
+text-align:left;
+width:750px;
+}
+
+#contentalt {
+float:left;
+line-height:1.5em;
+margin-right:20px;
+padding:0;
+text-align:left;
+width:750px;
+}
+
+#content h3,#contentalt h3 {
+margin:10px 0 8px;
+}
+
+/*** Footer ***/
+
+#footer {
+border-top:4px solid #9F9B9B;
+clear:both;
+color:gray;
+font-size:0.9em;
+line-height:1.6em;
+margin:0 auto;
+padding:8px 0;
+text-align:right;
+}
+
+#footer p {
+margin:0;
+padding:0;
+}
+
+#footer a {
+color:#808080;
+}
+
+/*** Various classes ***/
+.mapAutoCompleteControl
+{
+	margin-top: 10px;
+}
+.FMTmap{
+	width: 100%;
+	height: 400px;
+	text-align:center;
+}
+
+.box {
+	background:#3081B6;
+	border:1px solid #c8c8c8;
+	color:#fff;
+	font-size:0.9em;
+	line-height:1.4em;
+	padding:10px 10px 10px 13px;
+}
+
+.box a {
+	color:#f0f0f0;
+}
+
+.left {
+	float:left;
+	margin:0 15px 4px 0;
+}
+
+.right {
+	float:right;
+	margin:0 0 4px 15px;
+}
+
+.readmore {
+	margin:-10px 10px 12px 0;
+	text-align:right;
+}
+
+.timestamp {
+font-size:1.2em;
+margin:-5px 0 15px 10px;
+}
+
+.timestamp a {
+font-weight:normal;
+}
+
+.blue {
+color:#3081B6;
+}
+
+.clear {
+clear:both;
+}
+
+.fade {
+color:#c8c8c8;
+}
+
+.fadecomments {
+	color:#c8c8c8;
+	border-bottom:1px solid #9F9B9B;
+}
+
+.gray {
+	color:gray;
+}
+
+.photo {
+	background:#fff;
+	border:1px solid #bababa;
+	margin:6px 18px 2px 5px;
+	padding:2px;
+}
+
+
+.standouttext{
+	text-align: center;
+	font-weight: 400;
+	color: red;
+}
+
+#trfloat{
+	margin: 0;
+	position: absolute;
+	top: 50px;
+	right: 20px;
+}
+
+.noshow {
+	visibility: hidden;
+	height: 0px;
+}
+
+#custom-tweet-button a {
+    display: block;
+    padding: 2px 5px 2px 20px;
+    background: url('images/tweeticon.gif') left center no-repeat;
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+.fmtbutton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	background-color:#3081B6;
+	-webkit-border-top-left-radius:17px;
+	-moz-border-radius-topleft:17px;
+	border-top-left-radius:17px;
+	-webkit-border-top-right-radius:17px;
+	-moz-border-radius-topright:17px;
+	border-top-right-radius:17px;
+	-webkit-border-bottom-right-radius:17px;
+	-moz-border-radius-bottomright:17px;
+	border-bottom-right-radius:17px;
+	-webkit-border-bottom-left-radius:17px;
+	-moz-border-radius-bottomleft:17px;
+	border-bottom-left-radius:17px;
+	text-indent:0;
+	border:1px solid #469df5;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:30px;
+	line-height:30px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #3081B6;
+}.fmtbutton:hover {
+	background-color:#3081B6;
+	text-decoration:none;
+	cursor:pointer;
+}.fmtbutton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*** User Drop Down Menu 13/08/2014 ***/
+
+.dropdown
+{
+	color: #555;
+	margin: 3px -22px 0 0;
+	width: 163px;
+	position: relative;
+	height: 17px;
+	text-align:left;
+	float:right;
+    z-index:2000;    /*** Added 27/01/2018 ***/
+}
+.submenu
+{
+	background: #fff;
+	position: absolute;
+	top: -12px;
+	left: -20px;
+	z-index: 100;
+	width: 155px;
+	display: none;
+	margin-left: 10px;
+	padding: 40px 0 5px;
+	border-radius: 6px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+.dropdown li a
+{
+	color: #555555;
+	display: block;
+	font-family: arial;
+	font-weight: bold;
+	padding: 6px 15px;
+	cursor: pointer;
+	text-decoration:none;
+}
+
+.dropdown li a:hover
+{
+	background:#3081B6;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.account 
+{
+	font-size: 11px;
+	line-height: 16px;
+	color: #3081B6;
+	position: absolute;
+	z-index: 110;
+	display: block;
+	padding: 11px 0 0 20px;
+	height: 28px;
+	width: 121px;
+	margin: -11px 0 0 -10px;
+	text-decoration: none;
+	background: url(images/arrow.png) 126px 17px no-repeat;
+	/*background: url(images/arrow.png) 116px 17px no-repeat;*/
+	cursor:pointer;
+}
+.root
+{
+	list-style:none;
+	margin:0px;
+	font-size: 11px;
+	padding: 11px 0 0 0px;
+	border-top:1px solid #dedede;
+}
+/*** User Drop Down Menu 13/08/2014 ***/
+
+
+
+/*** Settings Toggle Units 28/10/2015 ***/
+.settingstoggleunits {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+	display: inline-block;
+}
+.settingstoggleunits-checkbox {
+    display: none;
+}
+.settingstoggleunits-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.settingstoggleunits-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.settingstoggleunits-inner:before, .settingstoggleunits-inner:after {
+    display: block; float: left; width: 50%; height: 20px; padding: 0; line-height: 20px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.settingstoggleunits-inner:before {
+    content: "KM";
+    padding-left: 10px;
+    background-color: #3081B6; color: #FFFFFF;
+}
+.settingstoggleunits-inner:after {
+    content: "Miles";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.settingstoggleunits-switch {
+    display: block; width: 18px; margin: 1px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 66px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.settingstoggleunits-checkbox:checked + .settingstoggleunits-label .settingstoggleunits-inner {
+    margin-left: 0;
+}
+.settingstoggleunits-checkbox:checked + .settingstoggleunits-label .settingstoggleunits-switch {
+    right: 0px; 
+}
+/*** Settings Toggle Units 28/10/2015 ***/
+
+
+
+
+
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
+
+
+/*Everything Except Mobiles*/
+@media screen and (min-width: 768px){
+   .rwd-break { display: none; }
+}
+
+
+/*Tablets*/
+@media screen and (min-width: 721px) and (max-width: 1024px) {
+ 
+  body {
+	background: #ffffff;
+  }
+
+}
+
+/*Mobiles*/
+@media screen and (min-width: 0px) and (max-width: 720px) {
+  
+	/*Hide Side bar on mobiles*/
+  	#sidebar { display: none; }
+  
+	body {
+		background: #ffffff;
+		font-size:16px;
+	} 
+	#content {
+			line-height:1.5em;
+			margin:0;
+			padding:0;
+			text-align:left;
+			width:100%;
+	}
+	#wrap {
+			width:100%;
+	}
+	#header img {
+		max-width:100%;
+	}
+	#header p {
+		font-size:18px;
+	}
+	img {
+		max-width:100%;
+	}
+}
